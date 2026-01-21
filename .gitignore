@@ -205,3 +205,29 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# Local virtual env
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Local artifacts (keep bucket artifacts in cloud later)
+platform/model_artifacts/local/
+
+# OS
+.DS_Store
+
+# Local virtual env
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Local artifacts
+platform/model_artifacts/local/
+
+# OS
+.DS_Store
