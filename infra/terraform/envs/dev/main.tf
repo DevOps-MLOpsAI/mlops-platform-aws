@@ -9,3 +9,9 @@ module "artifacts_bucket" {
   project_name = var.project_name
   environment  = var.environment
 }
+
+module "state_backend" {
+  source       = "../../modules/state_backend"
+  project_name = var.project_name
+  environment  = var.environment
+}
